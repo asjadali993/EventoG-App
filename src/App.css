@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+/* Light Mode */
+.light-mode {
+  color: #222;
+  background-color: #fff;
+}
+
+/* Dark Mode */
+.dark-mode {
+  color: white;
+  background-color: #222;
+}
+.navgrey{
+  /* background: #333; */
+ 
+  background: linear-gradient(to right, rgba(179, 56, 55, 0), rgb(34, 31, 31));
+}
+
+
+
+.bluecolor{
+color: #3867d6;
+}
+.bg-blue{
+background: #3867d6;
+}
+
+
+.head {
+  /* color: rgb(56, 103, 214); */
+  font-size: 40px;
+  text-transform:uppercase ;
+  background: linear-gradient(to right, rgba(64, 111, 242, 0.8), rgba(255, 0, 0, 1));
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+
+}
+
+.navgradiant {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+
+}
+
+.logo {
+  color: rgba(146, 35, 124, 0.957);
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.carImagediv {
+
+  height: 100%;
+}
+
+.carMain {
+  height: 500px;
+
+}
+
+.cardColor {
+  background-color: #161515d3 !important;
+}
+
+
+.box {
+  margin: auto;
+  width: 290px;
+  height: 230px;
+  border: 3px solid rgb(36, 36, 37);
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: #333;
+  
+}
+.boxLight{
+ 
+  margin: auto;
+  width: 290px;
+  height: 230px;
+  border: 3px solid rgb(20, 100, 220);
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  text-align: center;
+ 
+  
+}
+.box:hover ,.boxLight:hover{
+  
+  transform: scale(1.1);
+  filter: grayscale();
+}
+
+.icon{
+  width: 65px;
+ height: 65px;
+font-size: 25px;
+background: rgb(20, 100, 220);
+color: white;
+border-radius: 50%;
+
+  
+}
+.row .image{
+  width: 500px;
+
+}
+
+.user{
+  display: flex;
+  gap:1.5rem;
+  padding-bottom: 1rem;
+}
+
+.user img{
+  height:5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.user h3{
+  font-size: 1.5rem;
+  
+}
+
+ .user span{
+  font-size: 1rem;
+ 
+}
+
+.footer-a a{
+  display: block;
+  font-size: .8rem;
+  padding:.5rem 0;
+  color:#195bbee7;
+  list-style: none;
+  text-decoration: none;
+}
+.footer-a h3{
+  font-size: 1.5rem;
+  padding:1rem 0;
+  border-bottom: #dcf097 solid 3px;
+  
+}
+
+.footer-a a i{
+  padding-right: .5rem;
+  color: #bbd755;
+}
+
+.footer-a a:hover i{
+  padding-right: .6rem;
+  font-size: 20px;
+   color:#195bbee7;
+  
+}
+
+
+.credit{
+  text-align: center;
+  padding:1rem;
+  font-size: 1.4rem;
+  color: #bbd755;
+}
+.credit span{
+  color: #1752dd;
+  text-transform: lowercase;
+}
+
+hr{
+  border-top: 10px solid #8c8b8b;
+  margin: 0;
+ 
+}
+.monn-icon{
+  font-size: 30px;
+  color: white;
+  background: fixed;
+}
+
